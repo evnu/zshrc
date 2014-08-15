@@ -1,4 +1,4 @@
 zshrc
 =====
 
-My Zsh dotfiles
+My Zsh dotfiles. That's it.
