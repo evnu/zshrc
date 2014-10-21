@@ -20,7 +20,7 @@ eval "$(direnv hook zsh)"
 DISABLE_AUTO_UPDATE="true"
 
 plugins=(vundle dirstack mercurial autojump colored-man
-         kerl hello gem wd)
+         kerl hello gem wd rebar)
 
 source $ZSH/oh-my-zsh.sh
 
