@@ -6,6 +6,9 @@ alias eman="erl -man "
 # ignore comments on the command line
 set -k
 
+# ensure that we know where the history file is placed
+export HISTFILE=$HOME/.zsh_history
+
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
 
