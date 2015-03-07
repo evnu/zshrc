@@ -1,6 +1,4 @@
 export EDITOR="vim"
-alias vim="vim -w ~/.vimlog "
-alias gvim="gvim -w ~/.vimlog "
 alias eman="erl -man "
 
 # ignore comments on the command line
