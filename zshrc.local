@@ -10,8 +10,10 @@ ZSH=$HOME/.oh-my-zsh
 
 ZSH_THEME="afowler"
 
-# enable direnv
-eval "$(direnv hook zsh)"
+# optionally enable direnv
+if which direnv &>/dev/null; then
+    eval "$(direnv hook zsh)"
+fi
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
@@ -29,6 +31,7 @@ EDITOR="vim"
 
 # # Personal Settings
 
+autoload compinit
 compinit # just in case
 
 # add compatibility for bash completion
@@ -38,13 +41,15 @@ bashcompinit
 # Show descriptions in completion menus
 zstyle ":completion:*:descriptions" format "%B%d%b"
 
-# use xclip efficiently
-alias xi="xclip -i"
-alias xic="xi -selection clipboard"
-alias xo="xclip -o"
-alias xoc="xo -selection clipboard"
-alias cox="cd $(xo)"
-alias ebt="./ebt"
+# (optional) use xclip efficiently
+if which xclip &>/dev/null; then
+    alias xi="xclip -i"
+    alias xic="xi -selection clipboard"
+    alias xo="xclip -o"
+    alias xoc="xo -selection clipboard"
+    alias cox="cd $(xo)"
+    alias ebt="./ebt"
+fi
 
 # oh, you must have failed. tell me more about it.
 setopt printexitvalue
