@@ -1,6 +1,7 @@
 export EDITOR="vim"
 alias eman="erl -man "
 alias today="date +%Y%m%d"
+alias view="vim -R"
 
 # ignore comments on the command line
 set -k
