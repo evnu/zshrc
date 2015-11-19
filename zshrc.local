@@ -23,7 +23,7 @@ fi
 DISABLE_AUTO_UPDATE="true"
 
 plugins=(vundle dirstack mercurial autojump colored-man
-         kerl hello gem wd rebar pass)
+         kerl hello gem wd rebar pass fancy-ctrl-z)
 
 source $ZSH/oh-my-zsh.sh
 
