@@ -48,7 +48,6 @@ if which xclip &>/dev/null; then
     alias xic="xi -selection clipboard"
     alias xo="xclip -o"
     alias xoc="xo -selection clipboard"
-    alias cox="cd $(xo)"
     alias ebt="./ebt"
 fi
 
