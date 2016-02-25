@@ -29,6 +29,9 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 EDITOR="vim"
+HISTSIZE=1000000
+SAVEHIST=1000000
+HIST_REDUCE_BLANKS=1
 
 # # Personal Settings
 
