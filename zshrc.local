@@ -3,6 +3,21 @@ alias eman="erl -man "
 alias today="date +%Y%m%d"
 alias view="vim -R"
 
+#
+# simple helpers
+#
+
+with_notify() {
+    cmd=$1
+    if eval {$*}; then
+        notify-send $1 "finished successfully";
+    else
+        notify-send -u critical $1 "failed"
+    fi
+}
+
+# --- main configuration ---
+
 # ignore comments on the command line
 set -k
 
