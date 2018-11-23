@@ -38,7 +38,9 @@ fi
 DISABLE_AUTO_UPDATE="true"
 
 plugins=(vundle dirstack mercurial autojump colored-man
-         kerl hello gem wd rebar pass fancy-ctrl-z mix rust)
+         kerl hello gem wd rebar pass fancy-ctrl-z mix rust
+         history-substring-search
+         )
 
 source $ZSH/oh-my-zsh.sh
 
