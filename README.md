@@ -9,3 +9,4 @@ My Zsh dotfiles. That's it.
 * (optional) `direnv`
 * `autojump`
 * (optional) xclip
+* [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md)
