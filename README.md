@@ -11,3 +11,4 @@ My Zsh dotfiles. That's it.
 * (optional) xclip
 * [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md)
 * [fzf](https://github.com/junegunn/fzf)
+* zsh-syntax-highlighting
