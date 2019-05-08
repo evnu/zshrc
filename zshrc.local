@@ -37,8 +37,8 @@ fi
 # Comment this out to disable bi-weekly auto-update checks
 DISABLE_AUTO_UPDATE="true"
 
-plugins=(vundle dirstack mercurial autojump colored-man
-         kerl hello gem wd rebar pass fancy-ctrl-z mix rust
+plugins=(vundle autojump
+         gem wd rebar pass fancy-ctrl-z mix rust
          # See https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md
          zsh-syntax-highlighting
          history-substring-search
