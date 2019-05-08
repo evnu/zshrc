@@ -40,7 +40,6 @@ DISABLE_AUTO_UPDATE="true"
 plugins=(vundle autojump
          gem wd rebar pass fancy-ctrl-z mix rust
          # See https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md
-         zsh-syntax-highlighting
          history-substring-search
          fzf
          )
