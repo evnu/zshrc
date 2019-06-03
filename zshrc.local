@@ -3,9 +3,6 @@ alias eman="erl -man "
 alias today="date +%Y%m%d"
 alias view="vim -R"
 
-# Use vi mode
-set -o vi
-
 #
 # simple helpers
 #
