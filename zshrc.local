@@ -38,11 +38,11 @@ fi
 DISABLE_AUTO_UPDATE="true"
 
 plugins=(vundle autojump
-         gem wd rebar pass fancy-ctrl-z mix rust
+         gem wd rebar pass fancy-ctrl-z mix rust cargo
          # See https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md
          history-substring-search
          fzf
-         )
+	 )
 
 source $ZSH/oh-my-zsh.sh
 
