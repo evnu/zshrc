@@ -37,7 +37,7 @@ fi
 # Comment this out to disable bi-weekly auto-update checks
 DISABLE_AUTO_UPDATE="true"
 
-plugins=(wd rebar pass fancy-ctrl-z mix rust cargo
+plugins=(wd rebar pass fancy-ctrl-z mix rust
          # See https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md
          history-substring-search
          fzf
