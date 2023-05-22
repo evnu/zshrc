@@ -41,6 +41,7 @@ plugins=(wd rebar pass fancy-ctrl-z mix rust
          # See https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md
          history-substring-search
          fzf
+         docker-compose
 	 )
 
 source $ZSH/oh-my-zsh.sh
