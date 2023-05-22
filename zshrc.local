@@ -1,4 +1,6 @@
 export EDITOR="nvim"
+export ERL_AFLAGS="-kernel shell_history enabled"
+
 alias eman="erl -man "
 alias today="date +%Y%m%d"
 alias view="vim -R"
