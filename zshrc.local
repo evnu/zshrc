@@ -1,4 +1,4 @@
-export EDITOR="vim"
+export EDITOR="nvim"
 alias eman="erl -man "
 alias today="date +%Y%m%d"
 alias view="vim -R"
